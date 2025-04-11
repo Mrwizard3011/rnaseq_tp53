@@ -1,0 +1,8 @@
+# Pipeline's output files
+results/
+
+# Indexing files
+reference/bowtie2_index/
+
+# Snakemake's log files
+.snakemake/
