@@ -2,6 +2,8 @@
 
 This is a Snakemake pipeline for analyzing RNA-seq data targeting the TP53 gene.
 
+The input file is generated to demonstrate the workflow of Snakemae pipeline is run, not a real-world file.
+
 ## Prerequisites
 - Conda
 - Snakemake
@@ -27,11 +29,11 @@ snakemake -c1
 ```
 
 ## Input
-- : Sample FASTQ file (20 reads, 5% mapped to TP53)
-- : TP53 reference sequence
-- : TP53 annotation
+   -Sample FASTQ file (20 reads, 5% mapped to TP53)
+   -TP53 reference sequence
+   -TP53 annotation
 
 ## Output
-- : FastQC reports
-- : Aligned BAM files
-- : Read counts on TP53
+   -FastQC reports
+   -Aligned BAM files
+   -Read counts on TP53
